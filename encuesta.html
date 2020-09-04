@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/encuesta.css">
+  <title>Formulario</title>
+</head>
+
+<body style="background-color: #d9f5f9;">
+  <header>
+    <div class="d-flex jc-center">
+      <div class="container">
+
+        <div class="bg-white mt-30 bordes">
+          <div class="fz-25 pt-20 fw-bold px-20 hero">ENCUESTA</div>
+          <div class="fz-15 mt-20 px-20 pb-40">El siguiente documento tiene como objetivo tomar una información anónima,
+            por favor sé honesta y
+            responder todas las preguntas, gracias.</div>
+        </div>
+
+
+
+        <div class="bg-white mt-20 bordes">
+          <form action="">
+            <div class="fz-15 pt-30 px-20 fw-bold">
+              <label>Digite su Nombre:</label> <br>
+              <input type="text" class="input-class mt-5" placeholder="Tu respuesta" required>
+            </div>
+            <div class="fz-15 mt-30 px-20 pb-40  fw-bold">
+              <label>Digite su Apellido:</label><br>
+              <input type="text" class="input-class mt-5" placeholder="Tu respuesta" required>
+            </div>
+        </div>
+
+
+        <div class="bg-white mt-20 bordes">
+          <form action="">
+            <div class="fz-15 pt-30 px-20 fw-bold">
+              <label>Registre su temperatura corporal.</label> <br>
+            </div>
+            <div class="fz-15 mt-20 px-20 pb-20">
+              <input type="radio" id="gd" name="gradis" required> <label for="" name="gradis">Menos de 37 ºC </label><br><br>
+              <input type="radio" id="gd" name="gradis" required> <label for="" name="gradis">Entre 37 y 38 ºC</label><br><br>
+              <input type="radio" id="gd" name="gradis" required> <label for="" name="gradis">Entre 38 y 39 ºC </label><br><br>
+              <input type="radio" id="gd" name="gradis" required> <label for="" name="gradis">Mas de 39ºC </label><br><br>
+            </div>
+        </div>
+
+
+        <div class="bg-white mt-20 bordes">
+          <form action="">
+            <div class="fz-15 pt-30 px-20 fw-bold">
+              <label>¿Vive con personas de alto riesgo (tercera edad – menores de 2 años?</label> <br>
+            </div>
+            <div class="fz-15 mt-20 px-20 pb-20">
+              <input type="radio" id="eleg" name="SN" required> <label for="" name="SN">SI </label><br><br>
+              <input type="radio" id="eleg" name="SN" required> <label for="" name="SN">NO</label><br><br>
+            </div>
+        </div>
+
+
+        <div class="bg-white mt-20 bordes">
+          <form action="">
+            <div class="fz-15 pt-30 px-20 fw-bold">
+              <label>¿qué síntomas presenta?</label> <br>
+            </div>
+            <div class="fz-15 mt-20 px-20 pb-20">
+              <input type="radio" id="enf" name="sintomas" required> <label for="" name="sintomas">Tos</label><br><br>
+              <input type="radio" id="enf" name="sintomas" required> <label for="" name="sintomas"> Dolor de cabeza</label><br><br>
+              <input type="radio" id="enf" name="sintomas" required> <label for="" name="sintomas">Dolor de garganta</label><br><br>
+              <input type="radio" id="enf" name="sintomas" required> <label for="" name="sintomas">Problemas al
+                respirar</label><br><br>
+              <input type="radio" id="gd" name="sintomas"> <label for="" name="gradis">Ninguno</label><br><br>
+            </div>
+        </div>
+
+
+        <div class="bg-white mt-20 mb-20 bordes">
+            <div class="fz-15 pt-30 px-20 fw-bold">
+              <label>¿Ha tenido contacto con viajeros del exterior o nacionales?</label> <br>
+            </div>
+            <div class="fz-15 mt-20 px-20 pb-20">
+              <input type="radio" id="elg" name="NS" required> <label for="" name="NS">SI </label><br><br>
+              <input type="radio" id="elg" name="NS" required> <label for="" name="NS">NO</label><br><br>
+            </div>
+        </div>
+
+        <div class="mb-20">
+         <input type="submit" class="btn-sutmib" onclick="location.href='respuesta.html'"> 
+        </div><!-- target="_blank" -->
+      </form>
+
+      <div class="fz-15">
+        <a href="resultados.html"> Desea ver los resultados de las encuestas?</a>
+      </div>
+
+      <div class="mt-20 mb-30 d-flex jc-center f-colum align-center">
+          <div style="color: #a1b6b9; opacity: 0.7;" class="fz-25"> <strong>COVID</strong> - Formulario</div>
+          <div style="color: #a1b6b9; opacity: 0.7" class="fz-15">Porque nos preocupamos por tu salud</div>
+      </div>
+
+      </div>
+    </div>
+  </header>
+</body>
+<!-- onclick="location.href='resultados.html'" -->
+</html>
